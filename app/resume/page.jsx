@@ -6,8 +6,10 @@ import {
   FaJs,
   FaReact,
   FaFigma,
-  FaNodeJs
+  FaNodeJs,
+  FaAngular,
 } from "react-icons/fa";
+import { SiStyledcomponents } from "react-icons/si";
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 // components
@@ -57,29 +59,31 @@ const about = {
 const experience = {
   icon: '',
   title: 'My experience',
-  description: `Experienced Full Stack JavaScript developer with strong experience building and
-    maintaining web and mobile applications using a variety of technologies.
-    Competent in frontend and backend development, with significant experience in
-    frameworks such as React, React Native, Angular and Ionic. Proven track record of
-    working in diverse environments, from freelance projects to large corporate
-    teams. I am fluent in Spanish and fluent in English, with a strong commitment to
-    continue learning and staying up to date with the latest industry trends and
-    technologies`,
+  description: `I am a proficient Full Stack JavaScript developer with experience 
+  in frontend and backend technologies like React, Angular, Node.js, and TypeScript. 
+  I have worked on diverse projects, including roles at Santander Bank and Telecom Argentina,
+  where I developed accessible web components, implemented micro-frontends, and managed full project lifecycles. 
+  My work spans from freelancing to large corporate teams, showcasing my versatility and adaptability.`,
     items: [
       {
         company: 'Santander Bank Technology',
         position: 'SSr Software Engineer',
-        duration: 'July 2021 — April 2024'
+        duration: '2021 — 2024'
       },
       {
         company: 'Freelance',
         position: 'Full Stack JavaScript Developer',
-        duration: 'February 2021 — July 2021'
+        duration: '2021 — 2021'
       },
       {
         company: 'Telecom Argentina',
         position: 'Full Stack JavaScript Developer',
-        duration: 'October 2019 — February 2021'
+        duration: '2019 — 2021'
+      },
+      {
+        company: 'CtrlZ Software Factory',
+        position: 'Full Stack JavaScript Developer',
+        duration: '2017 — 2019'
       },
     ] 
 }
@@ -87,7 +91,10 @@ const experience = {
 const education = {
   icon: '',
   title: 'My education',
-  description: ``,
+  description: `I hold a Higher Technician degree in Programming
+   from the National Technological University of Tucuman. This education has provided 
+   me with a solid foundation in software development, and I am dedicated to continuous 
+   learning and staying updated with industry trends.`,
     items: [
       {
         institution: 'National Technological University of Tucuman',
@@ -96,7 +103,7 @@ const education = {
       },
       {
         institution: 'National Technological University of Tucuman',
-        degree: 'Fullstack JavaScript Engineer',
+        degree: 'Full Stack Javascript Immersive Bootcamp',
         duration: '2017 — 2018'
       },
     ] 
@@ -105,7 +112,9 @@ const education = {
 const skills = {
   icon: '',
   title: 'My skills',
-  description: ``,
+  description: `I excel in UI design, server-side development, database management, 
+  and real-time data handling. Additionally, I am knowledgeable in cloud technologies 
+  and committed to staying updated with industry trends.`,
     skillList: [
       {
         icon: <FaHtml5 />,
@@ -124,8 +133,16 @@ const skills = {
         name: 'React.js',
       },
       {
+        icon: <FaAngular />,
+        name: 'Angular',
+      },
+      {
         icon: <SiNextdotjs />,
         name: 'Next.js',
+      },
+      {
+        icon: <SiStyledcomponents />,
+        name: 'Styled-Components'
       },
       {
         icon: <SiTailwindcss />,
